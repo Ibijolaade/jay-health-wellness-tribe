@@ -1,0 +1,47 @@
+body {
+    background-color: aquamarine;
+  }
+  
+  h1 {
+    color: black;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 15px;
+  }
+caption {
+    font-weight: bolder; 
+    font-size: 1em;
+}
+.my-para{
+    font-weight: bolder;
+    font-size: 1em;
+}
+.my-logo{
+    background-image: url('images.jpg');
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 2.5em;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+}  
+
+
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    background-color: aquamarine;
+    padding: 15px;
+}

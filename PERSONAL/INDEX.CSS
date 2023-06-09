@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(204, 39, 21);
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    font-family: Georgia;
+    font-size: 120px;
+  }
