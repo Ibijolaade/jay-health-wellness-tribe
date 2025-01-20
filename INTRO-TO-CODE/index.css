@@ -54,6 +54,7 @@ header {
     padding: 10px 20px;
     background-color: #f4f4f4;
     border-bottom: 2px solid #ddd;
+    gap: 40px;
       
 }
 
@@ -103,9 +104,9 @@ nav {
 .nav-links a {
     text-decoration: none;
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding: 5px 10px;
-    transition: color 0.3s ease, background-color 0.3s ease transform 0.3s ease;
+    transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 .nav-links a:hover {
@@ -115,24 +116,11 @@ nav {
     transform: scale(1.1);
 }
 
-.nav-links a::after {
-    content: "";
-    display: block;
-    width: 0;
-    height: 2px;
-    background: #fff; 
-    transition: width 0.3s ease;
-    margin: auto;
-}
 
-.nav-links a:hover::after {
-    width: 100%; 
-}
-
-/* .nav-links .active {
+.nav-links .active {
     font-weight: bold;
   border-bottom: 2px solid #fff;
-} */
+}
 
 @media (max-width: 768px) {
     header {
