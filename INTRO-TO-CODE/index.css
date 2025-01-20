@@ -90,53 +90,53 @@ caption {
 
 header {
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #f4f4f4;
-    border-bottom: 2px solid #ddd;
-    gap: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f4f4f4;
+  border-bottom: 2px solid #ddd;
+  gap: 40px;
       
 }
 
 .my-logo {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 } 
 
 .my-logo img {
-    height: 50px;
-    margin-right: 10px;
+  height: 50px;
+  margin-right: 10px;
 }
 
 .my-logo span {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #333;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
 }
 
 .my-intro{
-    font-family: Georgia;
-    font-size: 20px;
-    font-weight: bold;
-    font-style: oblique;
-    text-align: justify;
+  font-family: Georgia;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: oblique;
+  text-align: justify;
 }
 
 
 nav {
-    flex-grow: 1;
-    text-align: right;
-    background-color: rgb(181, 189, 137);
+  flex-grow: 1;
+  text-align: right;
+  background-color: rgb(181, 189, 137);
 }
 
 .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    justify-content: flex-end;
-    margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  margin: 0;
 }
 
 .nav-links li {
@@ -144,24 +144,24 @@ nav {
 }
 
 .nav-links a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.5rem;
-    padding: 5px 10px;
-    transition: color 0.3s ease, background-color 0.3s ease;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 5px 10px;
+  transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 .nav-links a:hover {
-    color: rgb(181, 189, 137);
-    background-color: #fff;
-    border-radius: 5px;
-    transform: scale(1.1);
+  color: rgb(181, 189, 137);
+  background-color: #fff;
+  border-radius: 5px;
+  transform: scale(1.1);
 }
 
 
 .nav-links .active {
-    font-weight: bold;
-  border-bottom: 2px solid #fff;
+  font-weight: bold;
+ border-bottom: 2px solid #fff;
 }
 
 @media (max-width: 768px) {
@@ -183,14 +183,56 @@ nav {
   }
 
 .carousel-inner {
-    height: 500px;
-    width: 300px;
-    background-position: center;
-    text-align: center;
+  height: 500px;
+  width: 300px;
+  background-position: center;
+  text-align: center;
 
 }
 
 .carousel-caption{
-    text-emphasis: none;
-    text-align: justify;
+  text-emphasis: none;
+  text-align: justify;
+}
+
+.healthy-tips-section {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  text-align: center;
+  background: #eaf2f8;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.healthy-tips-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #34495e;
+}
+.healthy-tips-section img {
+  height: 70px;
+  width: 90px;
+  border-radius: 5px;
+  animation: bounce 2s infinite;
+}
+/* Bounce Animation */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+/* Optional hover effect */
+.healthy-tips-section img:hover {
+  animation: rotate 1s ease-in-out;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
